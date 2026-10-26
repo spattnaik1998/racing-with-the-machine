@@ -1,0 +1,28 @@
+{
+  "n_industries": 63,
+  "years": [
+    1997,
+    2025
+  ],
+  "aggregate_ls_first_last": [
+    51.42,
+    47.53
+  ],
+  "ipz_trend": {
+    "coef": -0.0554,
+    "p": 0.49365226457667644,
+    "wild_p": 0.5123512351235123
+  },
+  "ipz_trend_over_period_pp": -1.55,
+  "post22": {
+    "coef": 0.7699,
+    "p": 0.46466296933919016
+  },
+  "long_difference_slope_pp": -2.019,
+  "long_difference_p": 0.3756181107332719,
+  "ai_use": {
+    "n_sectors": 19,
+    "spearman": -0.689
+  },
+  "verdict": "not supported"
+}

@@ -1,0 +1,16 @@
+{
+  "n_occupations": 771,
+  "employment_m": 137.2,
+  "beta_by_jobzone": {
+    "1": 0.068,
+    "2": 0.2937,
+    "3": 0.328,
+    "4": 0.5078,
+    "5": 0.4207
+  },
+  "high_minus_low_beta": 0.211,
+  "high_minus_low_p": 1.7297729233567647e-11,
+  "beta_per_log_wage": 0.24,
+  "spearman_gpt_human": 0.909,
+  "verdict": "supported"
+}

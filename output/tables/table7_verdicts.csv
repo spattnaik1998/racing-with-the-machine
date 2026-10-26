@@ -1,0 +1,6 @@
+Hypothesis,Claim,Verdict,Key estimate
+H1,Exposure rises with skill,supported,JZ4-5 minus JZ1-3 beta = 0.211 (p = 1.73e-11)
+H2,Exposed employment slows after 2022,not supported,coef = 0.0046 (p = 0.398); pre-trend p = 0.169
+H3,Social / leadership skills buffer exposure,not supported,triple interaction = -0.0033 (p = 0.567)
+H4,Within-occupation dispersion narrows,not supported,P90/P10 coef = -0.0013 (p = 0.589)
+H5,Labour share falls more in IP-intensive industries,not supported,trend × IP = -0.0554 pp/yr (wild p = 0.512)

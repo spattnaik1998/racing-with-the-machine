@@ -1,0 +1,31 @@
+# ------------------------------------------------------------------
+# .gitignore for racing-with-the-machine (SET-III -> Merits)
+# ------------------------------------------------------------------
+
+# --- Secrets -------------------------------------------------------
+# API keys live in .env (the notebooks look for it here or in a parent folder).
+.env
+.env.*
+*.env
+!.env.example
+
+# Cached API responses. BEA echoes the request, including your UserID
+# (API key), back inside every response, so these files contain the key.
+# They are recreated automatically by 01_fetch_data.ipynb.
+data/raw/api/
+
+# --- Python and Jupyter --------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.part
+
+# --- Editors and operating systems -----------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,26 @@
+\begin{table}
+\caption{Robustness: coefficient on exposure × post-2022 (occupation and year FE; SEs clustered by occupation)}
+\label{tab:table6_robustness}
+\begin{tabular}{llrrrrrrl}
+\toprule
+ &  & coef & se & p & ci\_low & ci\_high & n\_obs & sig \\
+outcome & model &  &  &  &  &  &  &  \\
+\midrule
+\multirow[t]{11}{*}{lemp} & Baseline (GPT-4 beta) & 0.005 & 0.005 & 0.398 & -0.006 & 0.015 & 3850 &  \\
+ & Exposure = beta\_human & 0.013 & 0.005 & 0.009 & 0.003 & 0.023 & 3850 & *** \\
+ & Exposure = alpha\_gpt & -0.011 & 0.005 & 0.024 & -0.021 & -0.001 & 3850 & ** \\
+ & Exposure = gamma\_gpt & 0.011 & 0.005 & 0.031 & 0.001 & 0.021 & 3850 & ** \\
+ & Exposure = alpha\_human & 0.009 & 0.005 & 0.105 & -0.002 & 0.019 & 3850 &  \\
+ & Top exposure tercile (binary) & 0.000 & 0.010 & 0.987 & -0.020 & 0.021 & 3850 &  \\
+ & Employment-weighted & -0.010 & 0.007 & 0.155 & -0.024 & 0.004 & 3850 &  \\
+ & Major group × year FE & -0.019 & 0.009 & 0.042 & -0.037 & -0.001 & 3850 & ** \\
+ & Extended 2019–2025 & 0.014 & 0.007 & 0.045 & 0.000 & 0.028 & 4942 & ** \\
+ & Extended, drop 2020–21 & 0.017 & 0.007 & 0.014 & 0.003 & 0.030 & 3535 & ** \\
+ & Placebo: post = 2021–22 (2019–22 only) & 0.022 & 0.006 & 0.001 & 0.009 & 0.034 & 2828 & *** \\
+\cline{1-9}
+\multirow[t]{2}{*}{l9010} & P90/P10 baseline & -0.001 & 0.002 & 0.589 & -0.006 & 0.003 & 3574 &  \\
+ & P90/P10, human exposure & -0.002 & 0.003 & 0.556 & -0.007 & 0.004 & 3574 &  \\
+\cline{1-9}
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,65 @@
+ind,bea_name,fa_name,match
+111CA,Farms,Farms,exact
+113FF,"Forestry, fishing, and related activities","Forestry, fishing, and related activities",exact
+211,Oil and gas extraction,Oil and gas extraction,exact
+212,"Mining, except oil and gas","Mining, except oil and gas",exact
+213,Support activities for mining,Support activities for mining,exact
+22,Utilities,Utilities,exact
+23,Construction,Construction,exact
+311FT,Food and beverage and tobacco products,Food and beverage and tobacco products,exact
+313TT,Textile mills and textile product mills,Textile mills and textile product mills,exact
+321,Wood products,Wood products,exact
+322,Paper products,Paper products,exact
+323,Printing and related support activities,Printing and related support activities,exact
+324,Petroleum and coal products,Petroleum and coal products,exact
+325,Chemical products,Chemical products,exact
+326,Plastics and rubber products,Plastics and rubber products,exact
+327,Nonmetallic mineral products,Nonmetallic mineral products,exact
+331,Primary metals,Primary metals,exact
+332,Fabricated metal products,Fabricated metal products,exact
+333,Machinery,Machinery,exact
+334,Computer and electronic products,Computer and electronic products,exact
+335,"Electrical equipment, appliances, and components","Electrical equipment, appliances, and components",exact
+3361MV,"Motor vehicles, bodies and trailers, and parts","Motor vehicles, bodies and trailers, and parts",exact
+3364OT,Other transportation equipment,Other transportation equipment,exact
+337,Furniture and related products,Furniture and related products,exact
+339,Miscellaneous manufacturing,Miscellaneous manufacturing,exact
+42,Wholesale trade,Wholesale trade,exact
+441,Motor vehicle and parts dealers,Motor vehicle and parts dealers,exact
+445,Food and beverage stores,Food and beverage stores,exact
+452,General merchandise stores,General merchandise stores,exact
+481,Air transportation,Air transportation,exact
+482,Rail transportation,Railroad transportation,manual
+484,Truck transportation,Truck transportation,exact
+485,Transit and ground passenger transportation,Transit and ground passenger transportation,exact
+486,Pipeline transportation,Pipeline transportation,exact
+487OS,Other transportation and support activities,Other transportation and support activities,exact
+493,Warehousing and storage,Warehousing and storage,exact
+4A0,Other retail,Other retail,exact
+511,"Publishing industries, except internet (includes software)",Publishing industries (includes software),manual
+512,Motion picture and sound recording industries,Motion picture and sound recording industries,exact
+513,Broadcasting and telecommunications,Broadcasting and telecommunications,exact
+514,"Data processing, internet publishing, and other information services",Information and data processing services,manual
+521CI,"Federal Reserve banks, credit intermediation, and related activities",Federal Reserve banks,manual
+521CI,"Federal Reserve banks, credit intermediation, and related activities",Credit intermediation and related activities,manual
+523,"Securities, commodity contracts, and investments","Securities, commodity contracts, and investments",exact
+524,Insurance carriers and related activities,Insurance carriers and related activities,exact
+532RL,Rental and leasing services and lessors of intangible assets,Rental and leasing services and lessors of intangible assets,exact
+5411,Legal services,Legal services,exact
+5412OP,"Miscellaneous professional, scientific, and technical services","Miscellaneous professional, scientific, and technical services",exact
+5415,Computer systems design and related services,Computer systems design and related services,exact
+55,Management of companies and enterprises,Management of companies and enterprises,exact
+561,Administrative and support services,Administrative and support services,exact
+562,Waste management and remediation services,Waste management and remediation services,exact
+61,Educational services,Educational services,exact
+621,Ambulatory health care services,Ambulatory health care services,exact
+622,Hospitals,Hospitals,exact
+623,Nursing and residential care facilities,Nursing and residential care facilities,exact
+624,Social assistance,Social assistance,exact
+711AS,"Performing arts, spectator sports, museums, and related activities","Performing arts, spectator sports, museums, and related activities",exact
+713,"Amusements, gambling, and recreation industries","Amusements, gambling, and recreation industries",exact
+721,Accommodation,Accommodation,exact
+722,Food services and drinking places,Food services and drinking places,exact
+81,"Other services, except government","Other services, except government",exact
+HS,Housing,,none
+ORE,Other real estate,Real estate,manual
