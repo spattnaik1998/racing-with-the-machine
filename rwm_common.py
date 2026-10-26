@@ -1,10 +1,10 @@
 """
-Shared helpers for the SET-III -> Merits project.
+Shared helpers for 'Racing With the Machine' (MDPI Merits).
 
 Racing With the Machine: AI Exposure, Skill, and the Future of the Professions
 Authors: Sarthak Pattnaik, Eugene Pinsky, Kathleen Park (Boston University)
 
-Every notebook starts with `from setiii_common import *`.
+Every notebook starts with `from rwm_common import *`.
 Nothing in this module prints or logs API keys.
 """
 from __future__ import annotations
@@ -54,7 +54,7 @@ FRED_SERIES = {
 }
 CONTACT_EMAIL = "spattna1@bu.edu"   # BLS asks automated clients to identify themselves
 HEADERS = {
-    "User-Agent": f"SETIII-Merits academic research ({CONTACT_EMAIL})",
+    "User-Agent": f"racing-with-the-machine academic research ({CONTACT_EMAIL})",
     "Accept": "*/*",
 }
 

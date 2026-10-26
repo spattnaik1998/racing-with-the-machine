@@ -1,4 +1,4 @@
-# SET-III → Merits: code
+# Racing With the Machine: code
 
 *Racing With the Machine: AI Exposure, Skill, and the Future of the Professions in the Second Machine Age*
 Sarthak Pattnaik, Eugene Pinsky, Kathleen Park — Boston University
@@ -6,13 +6,13 @@ Sarthak Pattnaik, Eugene Pinsky, Kathleen Park — Boston University
 ## Setup (once)
 
 ```
-cd SETIII_Merits
+cd racing-with-the-machine
 python -m venv .venv && .venv\Scripts\activate        # Windows; on macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 jupyter lab
 ```
 
-The `.env` in the parent folder (`Recent/.env`) is found automatically. It needs `BEA API_KEY` and `FRED_API_KEY`. Both `KEY: value` and `KEY=value` lines work. Keys are never printed or written to the cache files.
+Copy `.env.example` to `.env` (in this folder or its parent) and add your keys; it is found automatically. It needs `BEA_API_KEY` and `FRED_API_KEY`. Both `KEY: value` and `KEY=value` lines work. The notebooks never print keys, but BEA echoes the key inside its responses, so the cached files in `data/raw/api/` contain it; `.gitignore` keeps that folder out of the repository.
 
 ## Run order
 
